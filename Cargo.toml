@@ -1,0 +1,14 @@
+[package]
+name = "my_rust_project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Add your dependencies here
+serde = { version = "1", features = ["derive"] }  # Example: serde for serialization/deserialization
+reqwest = "0.11"  # Example: reqwest for making HTTP requests
+chrono = "0.4"   # Example: chrono for date and time handling
+log = "0.4"      # Example: log for logging
+env_logger = "0.12"
+
+# Feel free to customize this list based on your project's needs!
